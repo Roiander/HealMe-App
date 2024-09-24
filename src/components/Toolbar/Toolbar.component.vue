@@ -2,7 +2,7 @@
   <nav class="toolbar">
     <router-link to="/doctores" class="toolbar-link" @mouseover="highlight" @mouseout="unhighlight">Doctores</router-link>
     <a href="#" class="toolbar-link" @mouseover="highlight" @mouseout="unhighlight">Citas</a>
-    <a href="#" class="toolbar-link" @mouseover="highlight" @mouseout="unhighlight">Hospitales/Clínicas</a>
+    <router-link to="/hospitales" class="toolbar-link" @mouseover="highlight" @mouseout="unhighlight">Hospitales/Clínicas</router-link>
     <a href="#" class="toolbar-link" @mouseover="highlight" @mouseout="unhighlight">Productos recomendados</a>
   </nav>
 </template>
@@ -19,4 +19,3 @@ export default {
   }
 }
 </script>
-
